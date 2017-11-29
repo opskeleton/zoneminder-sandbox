@@ -1,23 +1,13 @@
 node default {
 
-  include apt
+  include zoneminder
 
   if $operatingsystem == 'Ubuntu' {
-    package{'software-properties-common':
-      ensure  => present
-    } -> Exec <||>
-
     Service {
       provider => systemd
     }
   }
 
-
-  # apt::ppa {'ppa:iconnor/zoneminder': }
-
-  package {'zoneminder':
-    ensure  => present
-  }
 
 
 }
