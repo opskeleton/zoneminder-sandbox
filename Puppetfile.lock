@@ -5,7 +5,15 @@ FORGE
       puppetlabs-stdlib (< 5.0.0, >= 4.16.0)
     puppetlabs-stdlib (4.21.0)
 
+GIT
+  remote: git://github.com/pulling-strings/puppet-baseline.git
+  ref: master
+  sha: 78cc1279520c64881cc4148da9134a9d17f84844
+  specs:
+    strings-baseline (0.0.1)
+
 DEPENDENCIES
   puppetlabs-apt (>= 0)
   puppetlabs-stdlib (>= 0)
+  strings-baseline (>= 0)
 
