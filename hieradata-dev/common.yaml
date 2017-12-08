@@ -2,5 +2,8 @@
 
 baseline::home: '/home/vagrant'
 baseline::update::user: 'upgrade'
-# baseline::ssh::keys:
+baseline::ssh::keys:
+  upgrade:
+  - ''
+
 

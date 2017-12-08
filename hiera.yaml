@@ -2,7 +2,7 @@
 version: 5
 
 defaults:
-  datadir: /vagrant/hieradata-dev
+  datadir: hieradata-prod
   data_hash: yaml_data
 hierarchy:
  - name : 'virtual type'
