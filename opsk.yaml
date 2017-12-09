@@ -5,7 +5,7 @@
     - Puppetfile
     - modules
     - manifests
-    - hieradata
+    - hieradata-prod
     - hiera.yaml
     - static-modules
     - Gemfile
